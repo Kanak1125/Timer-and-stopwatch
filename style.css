@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #171717;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    user-select: none;
+}
+
+.wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.wrapper > div {
+    border-bottom: 2px solid #303134;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header > a {
+    text-decoration: none;
+    color: #4b4e54;
+}
+
+a > div {
+    display: flex;
+    gap: 1em;
+}
+
+a:active {
+    color: white;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.time > div {
+    color: whitesmoke;
+    font-size: 3em;
+}
+
+.txt {
+    font-size: .5em;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin: 1.1em;
+}
+
+button {
+    background: whitesmoke;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #36383b;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 200ms linear;
+}
+
+.start {
+    background: #8AB4F8;
+}
+
+.start:hover {
+    background: #1B66C9;
+}
+
+.stop {
+    background-color: #1B66C9;
+}
+
+.reset:hover {
+    background: #c3c5c8;
+}

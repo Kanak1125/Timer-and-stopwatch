@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/019625871d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <a href="#">
+                <div style = "color: white;">
+                <i class="far fa-hourglass"></i>Timer
+                </div>
+            </a>
+            <a href="stopwatch.htm">
+                <div>
+                    <i class="fas fa-stopwatch"></i>Stopwatch 
+                </div>
+            </a>
+        </div>
+        <div class="time">
+            <div>
+                <span id="min">5</span>
+                <span class="txt">m</span>
+            </div>
+            <div>
+                <span id="sec">00</span>
+                <span class="txt">s</span>
+            </div> 
+        </div>
+        <div class="btns">
+            <button class="start"> Start </button>
+            <button class="reset"> Reset </button>
+        </div>
+    </div>
+    <script src="timer.js"></script>
+</body>
+</html>
